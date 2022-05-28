@@ -17,7 +17,7 @@ Estos espacios de memoria deben de ser liberados una vez utilizados para evitar 
 de los operadores delete y delete[] para los operadores new y new[] respectivamente.
 
 El ejercicio presentado en:
-(insertar direccion aqui) 
+https://github.com/Tryzack/Estructura-Dinamica-de-Datos/blob/main/Tarea%201/ejercicio1.cpp
 esta basado en un ejercicio realizado anteriormente en programacion 2, el cual se puede
 encontrar en el siguiente link: 
 
