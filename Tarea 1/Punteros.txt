@@ -1,0 +1,24 @@
+Investigar la asignación dinámica de arreglos
+
+Uso de el operador new y del
+operador delete
+
+Realizar un ejercicio práctico con arreglos dinámicos en donde se demuestre
+el uno de estos operadores.
+
+En C, los arreglos generalmente son variables estaticas, ya que el uso de un arreglo indefinido puede terminar en un consumo infinito
+de memoia, para evitar esto, se emplean los arreglos dinamicos mediante punteros, que asignan una direccion dinamica de memoria de forma 
+tal que si se alcanza el limite de espacio se pueda reasignar la informacion en este espacio a uno mas grande, liberando el espacio
+asignado inicialmente.
+
+Para realizar este procedimiento, en C, se utilizan las funciones calloc, malloc, realloc y free. En C++, estas funciones se actualizaron
+para convertirse en los operadores new (para reservar una posicion) o new[] (para reservar multiples posiciones consecutivas).
+Estos espacios de memoria deben de ser liberados una vez utilizados para evitar una fuga de informacion o un memory leak, mediante el uso 
+de los operadores delete y delete[] para los operadores new y new[] respectivamente.
+
+El ejercicio presentado en:
+(insertar direccion aqui) 
+esta basado en un ejercicio realizado anteriormente en programacion 2, el cual se puede
+encontrar en el siguiente link: 
+
+https://github.com/Tryzack/Programacion_II_Jose_Chacon/blob/main/Ejercicios/Metodo%20Burbuja.cpp
