@@ -1,0 +1,5 @@
+Hacer un problema libre con respecto a lo visto en clase el dia 4/6/22 (arrays dinamicos)
+
+Problema: el usuario engresara una cantidad de estudiantes y cada uno tendra su respectiva nota
+al final se debera de informar cuales estudiantes pasaron y cuales no e indicar el promedio de la seccion
+y al final indicar el alumno con mayor calificacion (en caso de que dos o mas alumnos tengan buena calificacion)
