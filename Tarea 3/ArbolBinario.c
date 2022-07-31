@@ -1,6 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/* Definicion de estructura de arbol binario:
+Un árbol binario tiene un nodo raíz que tiene dos elementos a los que llamamos izquierda y derecha. 
+Cada elemento es a su vez otro nodo que puede tener izquierda y derecha, infinitamente.
+El nodo inicial que no tiene padres se conoce como raiz.
+Aquellos nodos con tanto padres como hijos o sub arboles se les conoce como ramas.
+Aquellos nodos que tengan padres pero no hijos se les conoce como hojas.
+*/
+
 typedef struct nodo{
 
    int dato;
